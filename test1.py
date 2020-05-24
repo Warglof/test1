@@ -98,10 +98,12 @@ while (loop == 'true'):
         if (password == CorrectPassword):
             print "Logged in successfully as " + username
             loop = 'false'
-        else:
-            print "Wrong Password
 
-def login():
+
+
+
+		
+		def login():
 	os.system('clear')
 	try:
 		toket = open('login.txt','r')
